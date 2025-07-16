@@ -1,0 +1,144 @@
+body {
+  
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+
+
+/* Fondo degradado SOLO para la sección de inicio */
+#inicio {
+  background: linear-gradient(to bottom, #ffffff, #e6ccff);
+}
+
+/* Fondo liso para la sección de la lista */
+#seccion-lista {
+  background-color: #f9eaff; /* o #fdf3ff si quieres un lila clarito */
+}
+
+.container {
+  padding: 30px;
+}
+
+h1, h2 {
+  font-size: 2.5em;
+  color: #f291fd;
+  margin-bottom: 20px;
+}
+
+.imagen {
+  transform: rotate(270deg);
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.lista-y-collage {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.razones {
+  max-width: 500px;
+}
+
+.cuadro-de-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  grid-template-rows: repeat(2, 1fr);   /* 2 filas */
+ gap: 20px;
+  max-width: 450px; /* Más ancho */
+  margin-left: auto; /* Empuja levemente a la izquierda */
+  margin-right: 380px;
+  margin-top: 90px;
+}
+
+.cuadro-de-4.mt-10 {
+  margin-top: 5px;
+  
+  
+}
+
+.cuadro-de-4 img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 30px 60px;
+}
+
+.texto {
+  flex: 1;
+  max-width: 500px;
+  margin-left: 30px;
+}
+
+
+
+
+.cuadro-de-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  grid-template-rows: repeat(2, 1fr);    /* 2 filas */
+  gap: 20px;
+  max-width: 450px; /* Más ancho */
+  margin-left: auto; /* Empuja levemente a la izquierda */
+  margin-right: 380px;
+  margin-top: 90px;
+}
+
+.cuadro-de-4 img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+
+button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #fd91c7;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #db5f9d;
+}
+
+#lista-razones {
+  font-family: 'Outfit', sans-serif;
+  text-align: left;
+  max-width: 600px;
+  
+  color: #4c3661;
+  font-size: 30px;
+   padding: 0 5px;
+}
